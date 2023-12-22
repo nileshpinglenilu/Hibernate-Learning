@@ -1,0 +1,6 @@
+
+public class Child extends Parent 
+{
+	Child obj = new Child();
+	obj.sum();
+}

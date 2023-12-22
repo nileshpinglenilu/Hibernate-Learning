@@ -1,0 +1,10 @@
+
+public class Demo {
+
+	public static void main(String[] args) 
+	{
+		Man obj = new Man();
+		obj.animalSound(10, 20);
+	}
+
+}

@@ -1,0 +1,12 @@
+
+public class Man extends Animal 
+{
+	public void animalSound(int a, int b)
+	{
+		System.out.println(a+b);
+	}
+	public void nn()
+	{
+		System.out.println("Man");
+	}
+}

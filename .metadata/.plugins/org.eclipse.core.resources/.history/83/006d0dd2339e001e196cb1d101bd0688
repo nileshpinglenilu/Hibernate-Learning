@@ -1,0 +1,6 @@
+
+public class Child extends Parent 
+{
+	Parent obj = new Parent();
+	System.out.println(obj.sum);
+}

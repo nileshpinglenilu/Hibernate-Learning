@@ -1,0 +1,11 @@
+
+public abstract class ADemo 
+{
+	public static void name()
+	{
+		System.out.println("My Name is Nilesh..! ");
+	}
+	public abstract sum(int a, int b);
+	public abstract mul (int a, int b);
+}
+

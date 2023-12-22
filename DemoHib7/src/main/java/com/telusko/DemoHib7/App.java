@@ -1,0 +1,27 @@
+package com.telusko.DemoHib7;
+
+import java.util.Random;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	Configuration con = new Configuration().configure().addAnnotatedClass(Laptop.class);
+    	SessionFactory sf = con.buildSessionFactory();
+    	Session session = sf.openSession();
+    	org.hibernate.Transaction tx = session.beginTransaction();    	
+    	Laptop lap = new Laptop();
+    	Laptop l = (Laptop) session.load(Laptop.class, 50);
+    	session.getTransaction().commit();
+
+    }
+}

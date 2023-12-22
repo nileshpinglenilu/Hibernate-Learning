@@ -1,0 +1,9 @@
+
+public abstract class Demo2 
+{
+	public int sum(int a, int b);
+	public void name()
+	{
+		System.out.println("Nilesh");
+	}
+}

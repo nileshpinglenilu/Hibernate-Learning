@@ -1,0 +1,8 @@
+
+public class Demo implements Runnable
+{
+	public static void main(String args[])
+	{
+		
+	}
+}

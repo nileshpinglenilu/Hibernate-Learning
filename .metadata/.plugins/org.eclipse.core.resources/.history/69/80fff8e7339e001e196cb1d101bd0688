@@ -1,0 +1,8 @@
+
+public class Parent 
+{
+	public void sum()
+	{
+		System.out.println("sum is --> "+10+20);
+	}
+}

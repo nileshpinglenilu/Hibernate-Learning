@@ -1,0 +1,10 @@
+
+public class FullName 
+{
+	String name = "Nilesh Pingale";
+	public void name()
+	{
+		System.out.println("My name is: "+name);
+	}
+}
+public class 

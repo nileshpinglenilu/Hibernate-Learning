@@ -1,0 +1,6 @@
+
+public class ShortName extends FullName 
+{
+	ShortName obj = new FullName();
+	
+}

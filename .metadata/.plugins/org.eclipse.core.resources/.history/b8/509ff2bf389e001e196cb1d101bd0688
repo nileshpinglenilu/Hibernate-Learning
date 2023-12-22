@@ -1,0 +1,10 @@
+
+public class Demo implements Runnable
+{
+	public static void main(String args[])
+	{
+		Thread th = new Thread();
+		Demo obj = new Demo(th);
+		demo.start();
+	}
+}

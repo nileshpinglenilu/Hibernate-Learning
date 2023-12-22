@@ -1,0 +1,10 @@
+
+public class Demo extends ADemo {
+
+	public static void main(String[] args) 
+	{
+		Demo obj = new Demo();
+		System.out.println(obj.name());
+	}
+
+}

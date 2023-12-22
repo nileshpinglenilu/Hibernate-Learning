@@ -1,0 +1,9 @@
+
+public class Demo extends ADemo {
+
+	public static void main(String[] args) 
+	{
+		System.out.println(name());
+	}
+
+}

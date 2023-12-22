@@ -1,0 +1,10 @@
+
+public class Man extends Animal 
+{
+	public void animalSound(int a, int b)
+	{
+		System.out.println(a+b);
+	}
+	Man obj = new Man();
+	System.out.println(obj.name());
+}

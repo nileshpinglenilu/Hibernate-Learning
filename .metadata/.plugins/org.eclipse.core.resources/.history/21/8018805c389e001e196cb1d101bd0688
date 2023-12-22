@@ -1,0 +1,9 @@
+
+public class Demo extends Thread
+{
+	public static void main()
+	{
+		Demo obj = new Demo();
+		obj.start();
+	}
+}

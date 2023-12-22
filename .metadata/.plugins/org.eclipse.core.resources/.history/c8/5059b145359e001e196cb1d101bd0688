@@ -1,0 +1,14 @@
+
+public class Demo {
+
+	public static void main(String[] args) 
+	{
+		Bank b;
+		b = new SBI();
+		System.out.println("SBI--> "+b.getInt());
+		
+		b = new ICICI();
+		System.out.println("ICICI--> "+b.getInt());
+	}
+
+}

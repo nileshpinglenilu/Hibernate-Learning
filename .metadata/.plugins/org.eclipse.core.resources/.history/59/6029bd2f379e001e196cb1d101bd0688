@@ -1,0 +1,9 @@
+
+public abstract class Animal 
+{
+	public abstract void animalSound(int a, int b);
+	public void name()
+	{
+		System.out.println("Nilesh Pingale");
+	}
+}

@@ -1,0 +1,12 @@
+public class Demo extends FullName
+{
+
+	public static void main(String args[])
+	{
+		Demo obj = new Demo();
+		public void name()
+		{
+			System.out.println("My name is: "+name);
+		}
+	}
+}

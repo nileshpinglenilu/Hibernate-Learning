@@ -1,0 +1,8 @@
+
+public class SBI extends Bank 
+{
+	float getInt()
+	{
+		return 1.2f;
+	}
+}

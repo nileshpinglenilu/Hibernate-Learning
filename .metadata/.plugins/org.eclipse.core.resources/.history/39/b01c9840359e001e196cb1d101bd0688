@@ -1,0 +1,8 @@
+
+public class ICICI extends Bank 
+{
+	float getInt()
+	{
+		return 2.5f;
+	}
+}

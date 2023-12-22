@@ -1,0 +1,5 @@
+
+public abstract class Demo2 
+{
+	public void sum(int a, int b);
+}

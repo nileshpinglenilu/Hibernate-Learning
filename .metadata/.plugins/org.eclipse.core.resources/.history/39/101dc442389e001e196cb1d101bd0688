@@ -1,0 +1,10 @@
+
+public class Main extends Thread 
+{
+	Main th = new Main();
+	th.start();
+	public void run()
+	{
+		System.out.println("Print..!");
+	}
+}
